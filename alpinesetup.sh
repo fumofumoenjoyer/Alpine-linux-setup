@@ -66,8 +66,8 @@ doas rc-update add elogind
 doas rc-update del sddm
 doas rc-update add gdm
 doas rc-update add networkmanager default
-doas rc-update del networking boot
-doas rc-update del wpa_supplicant boot
+doas rc-update del networking
+doas rc-update del wpa_supplicant
 
 
 echo "Make sure reboot and to pick plasma when you get the GDM login screen, i use gdm since sddm doesnt work for some reason"
