@@ -52,6 +52,8 @@ doas apk add networkmanager
 doas apk add networkmanager-wifi
 doas apk add plasma-nm
 doas apk add networkmanager-tui
+doas apk add pipewire-jack
+doas apk add pipewire-pulse
 
 # Add user to Networkmanager
 
